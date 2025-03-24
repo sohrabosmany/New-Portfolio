@@ -1,0 +1,192 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main content wrapper */
+.content-wrapper {
+    display: flex;
+    flex: 1;
+}
+
+/* Left side - black section */
+.left-section {
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+/* Right side - white section */
+.right-section {
+    width: 50%;
+    background-color: #efe9de;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    padding: 2rem;
+    max-width: 90%;
+}
+
+.info-item {
+    margin-bottom: 2rem;
+}
+
+.info-item h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Footer bar */
+.footer-bar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+
+.footer-left {
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.footer-right {
+    width: 50%;
+    background-color: #efe9de;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    color: #fff;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+.right-name {
+    margin-left: -30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.left-name {
+    margin-right: -25px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.projects-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.projects-link:hover {
+    opacity: 0.7;
+}
+
+.projects-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    transition: opacity 0.3s;
+    padding-right: 2rem;
+}
+
+.projects-link::after {
+    content: '';
+    position: absolute;
+    top: 53%;
+    left: -14.4px;
+    transform: translateY(-50%) scale(1);
+    width: 41px;
+    height: 45px;
+    background: url('./../../public/image/giphy.gif') no-repeat center / contain;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+    }
+
+    .left-section {
+        min-height: 200px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .footer-bar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+}
