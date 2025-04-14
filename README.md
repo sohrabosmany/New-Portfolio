@@ -2,7 +2,10 @@
 
 <br>
 
-<img width="1710" alt="portfolio" src="https://github.com/user-attachments/assets/1c388ba0-5aa4-4a12-8ed1-fa53bbfc316f" />
+
+https://github.com/user-attachments/assets/c1a7a06a-8a72-483d-9ccf-4c1d5daf3206
+
+
 
 <br><br>
 
