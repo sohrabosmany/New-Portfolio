@@ -7,7 +7,10 @@ function Home() {
             {/* Main content sections */}
             <div className="content-wrapper">
                 <div className="left-section">
-                    <h1 className="title">Software Engineer</h1>
+                    <div>
+                        <h1 className="title">Sohrab Osmany</h1>
+                        <h2 className="title subtitle">Software Engineer</h2>
+                    </div>
                 </div>
                 <div className="right-section">
                     <div className="info-container">
