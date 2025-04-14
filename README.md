@@ -1,4 +1,6 @@
-# New Portfolio (# React + Vite)
+<img width="1710" alt="portfolio" src="https://github.com/user-attachments/assets/1c388ba0-5aa4-4a12-8ed1-fa53bbfc316f" />
+
+# New Portfolio ( React + Vite)
 
 A modern personal portfolio website built with React, Vite, and Express.
 
@@ -41,5 +43,3 @@ This builds the frontend and serves the application through Express.
 ## License
 
 [Just don't copy paste]
-
-<img width="1710" alt="portfolio" src="https://github.com/user-attachments/assets/1c388ba0-5aa4-4a12-8ed1-fa53bbfc316f" />
